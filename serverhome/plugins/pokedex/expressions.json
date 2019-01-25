@@ -1,0 +1,9 @@
+{ 
+    "id"        :	"Pokémon numéro (?P<searchValue>[0-9]{1,3})",
+    "pkmn"      : "(trouve moi|Pokémon|qui est|je vois un|donne-moi toutes les informations sur) (?P<searchValue>.+\\s?.*\\s?.*)",
+	"weight"    :	"donne le poids de (?P<searchValue>.+\\s?.*\\s?.*)",
+	"height"    :	"donne la taille de (?P<searchValue>.+\\s?.*\\s?.*)",
+    "howto"     : "que sais-tu faire ?",
+    "joke"      : "raconte une blague",
+    "debug"     : "debug (?P<searchValue>[0-9]{1,3})"
+}
